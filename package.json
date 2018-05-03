@@ -1,0 +1,47 @@
+{
+  "name": "killapplication",
+  "version": "1.0.0",
+  "description": "Cordova killapplication Plugin",
+  "types": "./types/index.d.ts",
+  "cordova": {
+    "id": "killapplication",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlabocx.oceanex.com/cordova-plugin/killapplication"
+  },
+  "bugs": {
+    "url": "https://issues.apache.org/jira/browse/CB"
+  },
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios",
+    "cordova-windows",
+    "cordova-browser",
+    "cordova-osx"
+  ],
+  "author": "Félix Malboeuf",
+  "license": "Apache-2.0",
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
