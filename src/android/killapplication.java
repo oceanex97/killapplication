@@ -8,7 +8,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.app.Activity;
-import android.util.Log;
+import org.apache.cordova.LOG;
 /**
 * This class echoes a string called from JavaScript.
 */
@@ -17,11 +17,11 @@ public class killapplication extends CordovaPlugin {
 @Override
 public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 
-    Log.d("CordovaActivity", "Gonna check action");
+    LOG.v("CordovaActivity", "Gonna check action");
 
     if (action.equals("test")) {
 
-        Log.d("CordovaActivity", "action is test");
+        LOG.v("CordovaActivity", "action is test");
 
         String message = args.getString(0);
         this.test(message, callbackContext);
@@ -32,7 +32,7 @@ public boolean execute(String action, JSONArray args, CallbackContext callbackCo
 
 private void test(String message, CallbackContext callbackContext) {
 
-    Log.d("CordovaActivity", "called test");
+    LOG.v("CordovaActivity", "called test");
 
     if (message != null && message.length() > 0) {
         callbackContext.success(message);
