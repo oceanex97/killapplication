@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-        id="cordova-plugin-device" version="0.2.3">
+        id="killapplication" version="1.0.0">
     <name>killapplication</name>
-    <description>Cordova Device Plugin</description>
+    <description>Cordova killapplication Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,device</keywords>
     <js-module src="www/killapplication.js" name="killapplication">
