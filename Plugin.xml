@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        id="cordova-plugin-device" version="0.2.3">
+    <name>killapplication</name>
+    <description>Cordova Device Plugin</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,device</keywords>
+    <js-module src="www/killapplication.js" name="killapplication">
+        <clobbers target="killapplication" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+        <config-file target="config.xml" parent="/*">
+            <feature name="killapplication">
+                <param name="android-package" value="com.oceanex.killapplication"/>
+                <param name="onload" value="true" />
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/killapplication.java" target-dir="src/com/oceanex/killapplication/" />
+    </platform>
+
+    <js-module src="www/killapplication.js" name="killapplication">
+        <clobbers target="navigator.app" />
+        <merges target="navigator.app" />
+    </js-module>
+
+
+
+</plugin>
