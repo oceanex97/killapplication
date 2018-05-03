@@ -3,5 +3,5 @@ exports.test = function () {
     	console.log('test success');
     }, function(p_error) {
         console.log('test error');
-    }, "killapplication", "test", []);
+    }, "Killapplication", "test", []);
 };

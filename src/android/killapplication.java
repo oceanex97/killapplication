@@ -1,4 +1,4 @@
-package com.oceanex.killapplication;
+package com.oceanex.Killapplication;
 
 import org.apache.cordova.CordovaPlugin;
 import org.apache.cordova.CallbackContext;
@@ -7,17 +7,17 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import android.app.Activity;
+// import android.app.Activity;
 import org.apache.cordova.LOG;
 /**
 * This class echoes a string called from JavaScript.
 */
-public class killapplication extends CordovaPlugin {
+public class Killapplication extends CordovaPlugin {
 
 @Override
 public boolean execute(String action, JSONArray args, CallbackContext callbackContext) throws JSONException {
 
-    LOG.v("CordovaActivity", "Gonna check action");
+    // LOG.v("CordovaActivity", "Gonna check action");
 
     if (action.equals("test")) {
 

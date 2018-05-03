@@ -5,16 +5,11 @@
     <description>Cordova killapplication Plugin</description>
     <license>Apache 2.0</license>
     <keywords>cordova,device</keywords>
-    <js-module src="www/killapplication.js" name="killapplication">
-        <clobbers target="killapplication" />
-    </js-module>
-
     <!-- android -->
     <platform name="android">
         <config-file target="config.xml" parent="/*">
-            <feature name="killapplication">
-                <param name="android-package" value="com.oceanex.killapplication"/>
-                <param name="onload" value="true" />
+            <feature name="Killapplication">
+                <param name="android-package" value="com.oceanex.Killapplication"/>
             </feature>
         </config-file>
 
