@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Cordova killapplication Plugin",
   "types": "./types/index.d.ts",
+  "homepage": "http://gitlabocx.oceanex.com/cordova-plugin/killapplication",
   "cordova": {
     "id": "killapplication",
     "platforms": [
@@ -11,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://gitlabocx.oceanex.com/cordova-plugin/killapplication"
+    "url": "git+http://gitlabocx.oceanex.com/cordova-plugin/killapplication.git"
   },
   "bugs": {
     "url": "https://issues.apache.org/jira/browse/CB"
